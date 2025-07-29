@@ -13,13 +13,13 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = int(getenv("API_ID", "28637708"))
-API_HASH = getenv("API_HASH", "a4f3a1accecfe0663039e227d0429a1d")
-BOT_TOKEN = getenv("BOT_TOKEN", "7388467230:AAGQwWgukjQsmx0VWMsnfA1FTE8hU6wBkes")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5346047673").split()))
+API_ID = int(getenv("API_ID", "10379650"))
+API_HASH = getenv("API_HASH", "29813216c8daa138b7abbb3df3012c35")
+BOT_TOKEN = getenv("BOT_TOKEN", "8249900669:AAHooErCq1W0pFW7EgkcFubIbaWRnl0NDJk")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1182181055").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://vk5347775:cVy2Plb0ydaiIz3y@cluster0.oflmklz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-LOG_GROUP = getenv("LOG_GROUP", "-1002838329809")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002883358480"))
+LOG_GROUP = getenv("LOG_GROUP", "-1002722363511")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1001774379318"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
